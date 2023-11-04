@@ -11,31 +11,7 @@ export default {
   },
   data() {
     return {
-      list: "BABA HOJE: \n" +
-          "1- Arilson \n" +
-          "2- jhone \n" +
-          "3- Mário \n" +
-          "4- Carlos\n" +
-          "5- Murilo\n" +
-          "6- Pedro\n" +
-          "7- Thalys\n" +
-          "8- Felipe Victor \n" +
-          "9-Joao pedro\n" +
-          "10- Wallace\n" +
-          "11- Daniel\n" +
-          "12- Lucas\n" +
-          "13- Bernardo\n" +
-          "14- Vinicius \n" +
-          "15- Zé Vitor \n" +
-          "16- Ellias \n" +
-          "17- Yan georgi\n" +
-          "18- Yan \n" +
-          "19- Vitor \n" +
-          "20- Iago \n" +
-          "\n" +
-          "Goleiros 🧤\n" +
-          "1- Arthur \n" +
-          "2- Franklin"
+      list: ""
     }
   },
 }
