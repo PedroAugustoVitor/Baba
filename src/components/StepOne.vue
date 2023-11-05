@@ -11,7 +11,7 @@ export default {
   },
   data() {
     return {
-      list: ""
+      list: "Cole aqui a lista"
     }
   },
 }
