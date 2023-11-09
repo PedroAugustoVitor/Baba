@@ -23,6 +23,9 @@ export default {
     },
     pick: function (player) {
       this.$emit('pick', player)
+    },
+    persist: function () {
+      this.$emit('persist')
     }
   },
   data() {

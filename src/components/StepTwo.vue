@@ -12,6 +12,9 @@ export default {
     next: function () {
       if(this.pickers.length === 5)
         this.$emit('next')
+    },
+    persist: function () {
+      this.$emit('persist')
     }
   },
   data() {
