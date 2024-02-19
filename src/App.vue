@@ -50,7 +50,6 @@ export default {
         [],
         [],
         [],
-        [],
         []
       ]
     }
@@ -74,7 +73,7 @@ export default {
     formatList: function (list) {
       list = list.split('\n');
       list.forEach((name, index) => {
-        if (index > 0 && this.formattedList.length < 20) {
+        if (index > 0 && this.formattedList.length < 16) {
           name = name.trim()
           name = name.replace(/^([0-9]*-( *))/, "")
           this.formattedList.push(name)
@@ -86,7 +85,7 @@ export default {
     add: function (item) {
       if (this.pickers.includes(item)) {
         this.pickers.splice(this.pickers.indexOf(item), 1)
-      } else if (this.pickers.length < 5) {
+      } else if (this.pickers.length < 4) {
         this.pickers.push(item)
       }
       this.persist()
@@ -126,7 +125,6 @@ export default {
       this.pickers = []
       this.picker = ''
       this.teams = [
-        [],
         [],
         [],
         [],

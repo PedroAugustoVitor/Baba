@@ -12,7 +12,7 @@ export default {
       this.$emit('add', pickers)
     },
     next: function () {
-      if (this.pickers.length === 5)
+      if (this.pickers.length === 4)
         this.$emit('next')
     },
     sort: function () {
